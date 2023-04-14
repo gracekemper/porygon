@@ -1,4 +1,4 @@
- @import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
 
 body {
   background-color: #c5395a;
@@ -10,6 +10,10 @@ div.body {
   border-radius: 25px;
   background: #8bd5ee;
   padding: 20px;
+  
+  border-style: solid;
+  border-width: 10px;
+  border-color: #085a73;
 }
 
 div.top {
@@ -59,6 +63,8 @@ iframe {
   width: 40%;
   border-radius: 25px;
   background: #ff6262;
+  margin-top: 14px;
+  margin-bottom: 14px;
   padding: 20px;
   height: 300px;
 }
@@ -84,9 +90,10 @@ p {
   
 }
 
-h3 {
+summary {
   font-family: 'Silkscreen', cursive;
+  font-size: 20px;
   
-  margin: 0px;
-  padding: 0px;
+  margin: 5px;
+  padding: 5px;
 }
